@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.choice {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.rock {
+  background-color: #ccc;
+}
+
+.paper {
+  background-color: #eee;
+}
+
+.scissors {
+  background-color: #ddd;
+}
+
+.choice:hover {
+  transform: scale(1.1);
+}
+
+.result {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.score {
+  margin-top: 10px;
+}
